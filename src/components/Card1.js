@@ -60,11 +60,12 @@ function Card1(){
     return(
         
         <div className="cardType4">
-            {company.map(obj=>(<div className="container4">
+            {company.map(obj=>(<div className="container">
+                <div className='row'>
                 <Card0 obj={[obj.photo1,obj.title1,obj.sym1]}></Card0>
                 <Card2 obj={[obj.photo2,obj.title2,obj.sym2]}></Card2>
                 <Card3 obj={[obj.photo3,obj.title3,obj.sym3]}></Card3>
-
+                </div>
             </div>))}
         </div>
         

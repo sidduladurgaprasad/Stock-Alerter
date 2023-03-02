@@ -10,7 +10,7 @@ function Card3(props) {
     // console.log(values1)
   
     return (
-        <div>
+        <div className='col-sm-12 col-md-6 col-xl-4 offset-md-3 offset-xl-0'>
              <div className="card4">
                     <div className="face4 front4">
                         <img className="img4" src={props.obj[0]} alt="img1"/>

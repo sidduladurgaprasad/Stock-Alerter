@@ -1,8 +1,5 @@
 import './styles/SetAlert.css';
 import Card from './Cards/Card';
-import Card0 from './Cards/Card0';
-import Card2 from './Cards/Card2';
-import Card3 from './Cards/Card3';
 function SetAlert() {
     let company = [
         {
